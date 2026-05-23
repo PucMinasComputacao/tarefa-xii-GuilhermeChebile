@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Filmes</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header class="page-header">
+    <h1>Catálogo de Filmes</h1>
+    <p>Pesquise filmes usando dados reais da API The Movie DB.</p>
+  </header>
+
+  <main class="container">
+    <section class="search-area" aria-label="Área de busca de filmes">
+      <input id="search" type="text" placeholder="Buscar filme..." autocomplete="off">
+      <button id="btnSearch" type="button">Buscar</button>
+    </section>
+
+    <p id="message" class="message"></p>
+
+    <section id="movie-list" class="movie-list" aria-label="Lista de filmes"></section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>

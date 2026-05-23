@@ -16,14 +16,17 @@ Tratamento básico de erros em requisições
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
+- Nome: Guilherme Luiz Santos Chebile
+- Matricula: 908179
 
 ## Prints do trabalho
 
 <<  COLOQUE A IMAGEM - TELA DE CARDS DE PRODUTOS - AQUI >>
+![Print 1](/public/imgs/imagem1.png)
 
 <<  COLOQUE A IMAGEM - TELA DE DETALHE DO PRODUTO - AQUI >>
+![Print 2](/public/imgs/imagem2.png)
 
 <<  COLOQUE A IMAGEM - TELA DO CONSOLE - AQUI >>
+![Print 3](/public/imgs/imagem3.png)
 
